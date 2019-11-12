@@ -1,0 +1,204 @@
+/*  All 3 pages */
+body
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+nav
+{
+	padding-bottom: 25px;
+	background-color: yellow;
+	font-size: 20px;
+	top: 0; /* Position the navbar at the top of the page */
+	position: fixed;
+}
+nav ul 
+{
+	text-align: center;
+}
+nav ul li
+{
+	list-style-type: none;
+	width: 500px;
+	float:left;
+	text-align: center;
+}
+
+li a:hover
+{
+	background-color:black;
+	color:white;
+}
+h2
+{
+	clear: both;
+	font-size:150%;
+}
+
+div
+{
+	text-align:center;
+	font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 100%; 
+}
+p
+{
+	font-family: serif, Arial, Helvetica;
+	font-size: 20px;
+	text-align: justify;
+  text-justify: inter-word;
+}
+h3
+{
+	clear:both;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+iframe
+{
+	border:none;
+}
+ul
+{
+	  clear:both;
+}
+/* page 1*/
+#vresize8
+{
+	position:absolute;
+  height: 90%;
+  width: 50%;
+	margin-left: auto;
+ 	margin-right: auto;
+  display: block;
+}
+#position
+{
+	position: relative;
+  padding-bottom: 20%;
+ 	padding-top: 25px;
+  height: 0;
+}
+.size
+{
+	font-size: 120%;
+}
+.Bsize
+{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:100%;
+}
+/* page 2 */
+#vresize1
+{
+	width: 630px;
+	height: 350px;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#vresize9
+{
+	width: 560px; 
+	height: 315px;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.pagecolor1
+{
+	background-color: #FFEBCD;
+}
+#vresize7
+{
+	width: 620px;
+	height: 360px;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.pagecolor2
+{
+	background-color: #00bfff;
+}
+.pstyle
+{
+	font-size: 24px;
+}
+.hstyle
+{
+	font-size: 30px;
+}
+/*  page 3 */
+
+.image_resize1
+{
+	height: 553px;
+	width: 350px;
+	float: left;
+	padding-right: 10px;
+}
+h1
+{
+	clear:both;
+	padding-top: 50px;
+}
+#vresize2/* Planet Hulk*/
+{
+	width: 800px;
+	height: 440px;
+	padding-left: 10px;
+	float:right;
+}
+#vresize3 /* Next Avengers: Heroes of Tomorrow*/
+{
+	width: 800px;
+	height: 420px;
+	padding-left: 10px;
+	float:right;
+}
+#vresize4 /*Batman Beyond: Return of the Joker*/
+{
+	width: 800px;
+	height: 440px;
+	padding-left: 10px;
+	float:right;
+}
+#vresize5 /*Teen Titans: Trouble in Tokyo*/
+{
+	width: 800px;
+	height: 440px;
+	padding-left: 10px;
+	float:right;
+}
+#vresize6 /*Justice League: The Flashpoint Paradox*/
+{
+	width: 800px;
+	height: 440px;
+	padding-left: 10px;
+	float:right;
+}
+.centering
+{
+	text-align: center;
+}
+.parpadding
+{
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 20px;
+}
+.pagecolor3
+{
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,0.6395600476518732) 0%, rgba(252,70,70,0.6815768543745624) 97%);
+}
+
