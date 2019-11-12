@@ -201,4 +201,10 @@ font-size: 20px;
 	background: rgb(63,94,251);
 	background: radial-gradient(circle, rgba(63,94,251,0.6395600476518732) 0%, rgba(252,70,70,0.6815768543745624) 97%);
 }
+/*page4*/
+#map
+{
+	height:400px;
+	width:100%;
+}
 
