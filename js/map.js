@@ -12,7 +12,7 @@
       	});
       	var infoWindow = new google.maps.InfoWindow(
       	{
-      		content:"The Flash is flimed here","https://i.ebayimg.com/images/g/Z9wAAOSwBnZbDhDT/s-l64.jpg"
+      		content:"The Flash is flimed here"
       	})
       	marker.addListener('click',function()
       	{
