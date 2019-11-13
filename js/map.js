@@ -26,7 +26,7 @@
       	});
       	var infoWindow1 = new google.maps.InfoWindow(
       	{
-      		content:"The Batwomen is flimed in Chicago"
+      		content:"Batwomen is flimed in Chicago"
       	})
       	marker1.addListener('click',function()
       	{
@@ -36,11 +36,11 @@
       	var	marker2 =  new google.maps.Marker( {
       		position:{lat:33.7490, lng: -84.3880},
       		map: map,
-      		title: 'Batwomen'
+      		title: 'Black Lightning'
       	});
       	var infoWindow2 = new google.maps.InfoWindow(
       	{
-      		content:"The Black Lightning is flimed in Atlanta"
+      		content:"Black Lightning is flimed in Atlanta"
       	})
       	marker2.addListener('click',function()
       	{
