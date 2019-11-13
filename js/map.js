@@ -8,7 +8,14 @@
         var	marker =  new google.maps.Marker( {
       		position:{lat:49.2827, lng: -123.1207},
       		map: map,
-      		title: 'The Flash',
-      		icon: "https://a.wattpad.com/useravatar/TheFlashRocks.256.759051.jpg"
+      		title: 'The Flash'
+      	});
+      	var infoWindow = new google.maps.InfoWindow(
+      	{
+      		content:"The Flash is flimed here","https://i.ebayimg.com/images/g/Z9wAAOSwBnZbDhDT/s-l64.jpg"
+      	})
+      	marker.addListener('click',function()
+      	{
+      		infoWindow.open(map,marker);
       	});
       }
