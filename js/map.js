@@ -2,7 +2,7 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center:{lat:47.5515, lng: -101.0020},
-          zoom: 4.5
+          zoom: 4
         });
 
         var	marker =  new google.maps.Marker( {
@@ -40,7 +40,7 @@
       	});
       	var infoWindow2 = new google.maps.InfoWindow(
       	{
-      		content:"The black lightning is flimed in Atlanta"
+      		content:"The Black Lightning is flimed in Atlanta"
       	})
       	marker2.addListener('click',function()
       	{
