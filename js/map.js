@@ -5,28 +5,46 @@
           zoom: 4.5
         });
 
-        /*var	marker =  new google.maps.Marker( {
+        var	marker =  new google.maps.Marker( {
       		position:{lat:49.2827, lng: -123.1207},
       		map: map,
       		title: 'The Flash'
       	});
       	var infoWindow = new google.maps.InfoWindow(
       	{
-      		content:"The Flash is flimed here"
+      		content:"The Flash is flimed in Vancouver"
       	})
       	marker.addListener('click',function()
       	{
       		infoWindow.open(map,marker);
-      	});*/
+      	});
+
+      	var	marker1 =  new google.maps.Marker( {
+      		position:{lat:41.8781, lng: -87.6298},
+      		map: map,
+      		title: 'Batwomen'
+      	});
+      	var infoWindow1 = new google.maps.InfoWindow(
+      	{
+      		content:"The Batwomen is flimed in Chicago"
+      	})
+      	marker1.addListener('click',function()
+      	{
+      		infoWindow1.open(map,marker1);
+      	});
+
+      	var	marker2 =  new google.maps.Marker( {
+      		position:{lat:33.7490, lng: -84.3880},
+      		map: map,
+      		title: 'Batwomen'
+      	});
+      	var infoWindow2 = new google.maps.InfoWindow(
+      	{
+      		content:"The black lightning is flimed in Atlanta"
+      	})
+      	marker2.addListener('click',function()
+      	{
+      		infoWindow2.open(map,marker2);
+      	});
       	//add marker function
-      	addMarker({coords:{lat:49.2827, lng: -123.1207}},
-      	);
-      	addMarker({coords:{lat:41.8781, lng: -87.6298}});
-      	addMarker({coords:{lat:33.7490, lng: -84.3880}});
-      	function addMarker(props){
-					var	marker =  new google.maps.Marker( {
-      			position:props.coords,
-      			map: map
-      		});
-      	}
       }
