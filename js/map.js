@@ -6,6 +6,7 @@
         });
       }
 
-      var	marker =  new google.maps.marker( {
-      	position:{}
+      var	marker =  new google.maps.Marker( {
+      	position:{lat:49.2827, lng:-123.1207}
+      	map:map
       });
