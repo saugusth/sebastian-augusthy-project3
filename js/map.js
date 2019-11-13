@@ -1,9 +1,11 @@
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center:{lat:43.9695, lng: -99.9018},
+          zoom: 5
+        });
+      }
 
-function initMap()
-{
-	var options = {
-		zoom = 8,
-		center:{lat:41.8780, lng: -93.0977}
-	}
-	var map = new google.maps.Map(document.getElementById('map'),options);
-}
+      var	marker =  new google.maps.marker( {
+      	position:{}
+      });
