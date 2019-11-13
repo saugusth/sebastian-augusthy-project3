@@ -46,5 +46,4 @@
       	{
       		infoWindow2.open(map,marker2);
       	});
-      	//add marker function
       }
