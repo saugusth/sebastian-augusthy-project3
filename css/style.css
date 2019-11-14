@@ -9,7 +9,6 @@ body
 nav
 {
 	padding-bottom: 25px;
-	background-color: yellow;
 	font-size: 20px;
 	top: 0; /* Position the navbar at the top of the page */
 	position: relative;
@@ -101,14 +100,20 @@ ul
 	{
 		display: block;
 	}
+	#sidebar nav
+	{
+		background-color: none;
+	}
 	#sidebar ul
 	{
+		display:none;
 		height:50px;
 	}
 	#sidebar ul li
 	{
 		list-style-type: none;
 		float:none;
+		color:unset;
 		/*border-bottom: 2px solid yellow;*/
 	}
 	#sidebar ul li: last-child
@@ -119,13 +124,6 @@ ul
 
 @media screen and (max-width: 800px)
 {
-	body
-	{
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-top:20px;
-		margin-bottom:20px;
-	}
 	.size
 	{
 		font-size: 150%
@@ -146,7 +144,7 @@ ul
 	h1
 	{
 		clear:both;
-		padding-top: 20px;
+		padding-top: 0;
 	}
 }*/
 /* page 2 */
