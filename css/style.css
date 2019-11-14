@@ -93,6 +93,20 @@ ul
 }
 @media screen and (max-width: 800px)
 {
+	#sidebar ul li
+	{
+		list-style-type: none;
+		float:none;
+		border-bottom: 10px solid yellow;
+	}
+	#sidebar ul li: last-child
+	{
+		border-bottom: none;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
 	body
 	{
 		margin-left: 20px;
