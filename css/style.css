@@ -37,10 +37,6 @@ h2
 	clear: both;
 	font-size:150%;
 }
-.menu-trigger
-{
-	display: none;
-}
 div
 {
 	text-align:center;
@@ -95,15 +91,19 @@ ul
 	font-family:"Comic Sans MS", Times New Roman, sans-serif;
 	font-size:100%;
 }
+.menu-trigger
+{
+	display: none;
+}
 @media screen and (max-width: 800px)
 {
-	#menu-trigger
+	.menu-trigger
 	{
 		display: block;
 	}
 	#sidebar ul
 	{
-		height:30px;
+		height:50px;
 	}
 	#sidebar ul li
 	{
