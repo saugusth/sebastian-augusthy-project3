@@ -12,11 +12,12 @@ nav
 	background-color: yellow;
 	font-size: 20px;
 	top: 0; /* Position the navbar at the top of the page */
-	position: fixed;
+	position: relative;
 }
 nav ul 
 {
 	text-align: center;
+	height: 15px;
 }
 nav ul li
 {
@@ -36,7 +37,10 @@ h2
 	clear: both;
 	font-size:150%;
 }
-
+.menu-trigger
+{
+	display: none;
+}
 div
 {
 	text-align:center;
@@ -93,11 +97,19 @@ ul
 }
 @media screen and (max-width: 800px)
 {
+	#menu-trigger
+	{
+		display: block;
+	}
+	#sidebar ul
+	{
+		height:30px;
+	}
 	#sidebar ul li
 	{
 		list-style-type: none;
 		float:none;
-		border-bottom: 10px solid yellow;
+		/*border-bottom: 2px solid yellow;*/
 	}
 	#sidebar ul li: last-child
 	{
@@ -111,7 +123,7 @@ ul
 	{
 		margin-left: 20px;
 		margin-right: 20px;
-		margin-top:40px;
+		margin-top:20px;
 		margin-bottom:20px;
 	}
 	.size
@@ -130,7 +142,11 @@ ul
 	h2
 	{
 		font-size: 250%;
-		margin-top: 25px;
+	}
+	h1
+	{
+		clear:both;
+		padding-top: 20px;
 	}
 }*/
 /* page 2 */
