@@ -8,7 +8,8 @@
         var	marker =  new google.maps.Marker( {
       		position:{lat:49.2827, lng: -123.1207},
       		map: map,
-      		title: 'The Flash'
+      		title: 'The Flash',
+      		icon:'https://i.imgur.com/nwm2F14.jpg'
       	});
       	var infoWindow = new google.maps.InfoWindow(
       	{
@@ -22,7 +23,8 @@
       	var	marker1 =  new google.maps.Marker( {
       		position:{lat:41.8781, lng: -87.6298},
       		map: map,
-      		title: 'Batwomen'
+      		title: 'Batwomen',
+      		icon:'https://i.imgur.com/cdvl134.jpg'
       	});
       	var infoWindow1 = new google.maps.InfoWindow(
       	{
@@ -36,7 +38,8 @@
       	var	marker2 =  new google.maps.Marker( {
       		position:{lat:33.7490, lng: -84.3880},
       		map: map,
-      		title: 'Black Lightning'
+      		title: 'Black Lightning',
+      		icon:'https://i.imgur.com/T5jMGLo.jpg'
       	});
       	var infoWindow2 = new google.maps.InfoWindow(
       	{
