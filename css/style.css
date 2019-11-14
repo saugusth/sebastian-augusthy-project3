@@ -91,7 +91,7 @@ ul
 	font-family:"Comic Sans MS", cursive, sans-serif;
 	font-size:100%;
 }
-only screen and (min-width: 375px) and (max-width: 960px)
+@media (min-width: 375px) and (max-width: 960px)
 {
 	body
 	{
