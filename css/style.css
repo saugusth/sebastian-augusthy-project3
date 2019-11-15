@@ -103,11 +103,10 @@ h1
 {
 	body
 	{
-		margin: 0 auto;
-	}
-	.menu-trigger
-	{
-		display: block;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top:20px;
+		margin-bottom:20px;
 	}
 	.sidebar nav
 	{
@@ -115,7 +114,6 @@ h1
 	}
 	.sidebar ul
 	{
-		display:none;
 		height:50px;
 	}
 	.sidebar ul li
@@ -128,33 +126,31 @@ h1
 	{
 		border-bottom: none;
 	}
-	div.nav-expanded{
-		display: block;
-	}
 }
 
 @media screen and (max-width: 800px)
 {
 	.size
 	{
-		font-size: 150%
+		font-size: 100%
 	}
 	.Bsize
 	{
 		font-family:"Comic Sans MS", Times New Roman, sans-serif;
-		font-size:170%;
+		font-size:100%;
 	}
 	h3
 	{
-		font-size:200%;
+		font-size:125%;
 	}
 	h2
 	{
-		font-size: 250%;
+		font-size: 150%;
 	}
 	h1
 	{
 		clear:both;
+		font-size:200%;
 		padding-top: 0;
 	}
 }
