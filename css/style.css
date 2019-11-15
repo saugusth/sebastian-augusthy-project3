@@ -124,10 +124,6 @@ h1
 		float:none;
 		/*border-bottom: 2px solid yellow;*/
 	}
-	.sidebar ul li: last-child
-	{
-		border-bottom: none;
-	}
 }
 
 @media screen and (max-width: 800px)
