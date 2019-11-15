@@ -3,7 +3,7 @@ body
 {
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top:10px;
+	margin-top:0px;
 	margin-bottom:10px;
 }
 nav
@@ -12,19 +12,20 @@ nav
 	font-size: 20px;
 	top: 0; /* Position the navbar at the top of the page */
 	position: relative;
-	background: yellow;
 }
 nav ul 
 {
 	text-align: center;
 	height: 15px;
+
 }
 nav ul li
 {
 	list-style-type: none;
 	width: 500px;
 	float:left;
-	text-align: center;
+	text-align: center;	
+	background: yellow;
 }
 
 li a:hover
@@ -106,16 +107,16 @@ h1
 	{
 		margin-left: 20px;
 		margin-right: 20px;
-		margin-top:20px;
+		margin-top:5px;
 		margin-bottom:20px;
 	}
 	.sidebar nav
 	{
-		background-color: none;
+		width:70px;
 	}
 	.sidebar ul
 	{
-		height:50px;
+		height:90px;
 	}
 	.sidebar ul li
 	{
