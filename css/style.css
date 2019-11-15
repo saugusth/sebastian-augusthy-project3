@@ -12,6 +12,7 @@ nav
 	font-size: 20px;
 	top: 0; /* Position the navbar at the top of the page */
 	position: relative;
+	background: yellow;
 }
 nav ul 
 {
