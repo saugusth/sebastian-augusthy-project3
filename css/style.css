@@ -34,7 +34,7 @@ nav ul li a
 	padding:15px;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: black;
     color: white;
 }
@@ -106,51 +106,7 @@ h1 {
     clear: both;
 }
 
-@media screen and (min-width: 400px) {
-    body {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 0;
-        margin-bottom: 10px;
-    }
 
-    .sidebar nav {
-        width: 70px;
-    }
-
-    .sidebar ul {
-        height: 90px;
-    }
-
-    .sidebar ul li {
-        list-style-type: none;
-        float: none;
-    }
-
-        .size {
-        font-size: 100%
-    }
-
-    .Bsize {
-        font-family: Verdana, Geneva, sans-serif;
-        font-size: 100%;
-    }
-
-    h3 {
-        font-size: 125%;
-    }
-
-    h2 {
-        font-size: 150%;
-    }
-
-    h1 {
-        clear: both;
-        font-size: 200%;
-        padding-top: 0;
-    }
-
-}
 
 @media screen and (max-width:725px) 
 {
