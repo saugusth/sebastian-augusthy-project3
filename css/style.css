@@ -44,11 +44,11 @@ h2 {
     font-size: 150%;
 }
 
-/*div {
+#centered1{
     text-align: center;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 100%;
-}*/
+}
 
 p {
     font-family: serif, Arial, Helvetica;
@@ -157,7 +157,7 @@ h1 {
 {
 	#wrapper
 	{
-		/*margin:auto 0;*/
+		margin:0 auto;
 		text-align:left;
 	}
 }
