@@ -316,16 +316,16 @@ h1 {
 {
 	width:50%;
 	height:500px;
-	margin-top: 10px;
 }
-#slider
+#slidebar
 {
-	width:100px;
-	height:300Spx;
+	width:1000px;
+	height:500px;
 	margin:20px auto;
-	position: relative;
+	position: absolute;
 	border: 10px solid white;
 	box-shadow: 0px 0px 5px 2px black;
+	margin-top:500px;
 }
 button
 {
@@ -335,5 +335,11 @@ button
 	font-size: 30px;
 	color:white;
 	position:absolute;
-	top:50%;
+	margin-top: 750px;
+	margin-left: -375px;
+}
+.next
+{
+	border-radius: 0px 10px 10px 0px;
+	margin-left: 950px;
 }
