@@ -7,7 +7,6 @@ body {
 }
 
 nav {
-    padding-bottom: 25px;
     font-size: 20px;
     top: 0;
     /* Position the navbar at the top of the page */
@@ -15,26 +14,24 @@ nav {
 }
 
 nav ul {
-	list-style-type: none;
-  margin: 0;
+	list-style: none;
+  background:yellow;
+  text-align:center;
   padding: 0;
-  overflow: hidden;
-  background-color: yellow;
-  text-align: center;
+  margin: 0;
 }
 
 nav ul li {
-	float: left;
-	position: relative;
-  left:50%;
-  right:50%;
+	display:inline-block;
+	font-size:20px;
+	padding-left: 5px;
 }
 nav ul li a
 {
-	display: block;
-	color: black;
-	padding: 10px 20px;
-	text-decoration: none;
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding:15px;
 }
 
 li a:hover {
@@ -195,7 +192,7 @@ h1 {
 
 .pagecolor2 {
     background-color: #00bfff;
-    width: 1200px;
+    width: 1250px;
 }
 
 .pstyle {
