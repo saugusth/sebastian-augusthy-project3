@@ -111,7 +111,7 @@ h1 {
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 0;
-        margin-bottom: 300px;
+        margin-bottom: 10px;
     }
 
     .sidebar nav {
@@ -125,7 +125,6 @@ h1 {
     .sidebar ul li {
         list-style-type: none;
         float: none;
-        /*border-bottom: 2px solid yellow;*/
     }
 
 }
@@ -192,7 +191,7 @@ h1 {
 
 .pagecolor2 {
     background-color: #00bfff;
-    width: 1250px;
+    width: 1240px;
 }
 
 .pstyle {
