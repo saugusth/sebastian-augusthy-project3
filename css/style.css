@@ -14,24 +14,24 @@ nav {
 }
 
 nav ul {
-	list-style: none;
-  background:yellow;
-  text-align:center;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    background: yellow;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-	display:inline-block;
-	font-size:20px;
-	padding-left: 5px;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 5px;
 }
-nav ul li a
-{
-	text-decoration:none;
-	color:black;
-	display:block;
-	padding:15px;
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
 }
 
 li a:hover {
@@ -44,7 +44,7 @@ h2 {
     font-size: 150%;
 }
 
-#centered1{
+#centered1 {
     text-align: center;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 100%;
@@ -128,8 +128,8 @@ h1 {
         float: none;
     }
 
-        .size {
-        font-size: 100%
+    .size {
+        font-size: 100%;
     }
 
     .Bsize {
@@ -137,15 +137,15 @@ h1 {
         font-size: 100%;
     }
 
-    h3 {
+    #wrapper h3 {
         font-size: 125%;
     }
 
-    h2 {
+    #wrapper h2 {
         font-size: 150%;
     }
 
-    h1 {
+    #wrapper h1 {
         clear: both;
         font-size: 200%;
         padding-top: 0;
@@ -153,13 +153,35 @@ h1 {
 
 }
 
-@media screen and (max-width:725px) 
-{
-	#wrapper
-	{
-		margin:0 auto;
-		text-align:left;
-	}
+@media screen and (min-width:725px) {
+    #wrapper {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    #wrapper h3 {
+        font-size: 100%;
+    }
+
+    #wrapper h2 {
+        font-size: 125%;
+    }
+
+    #wrapper h1 {
+        clear: both;
+        font-size: 175%;
+        padding-top: 0;
+    }
+
+    .size {
+        font-size: 110%;
+    }
+
+    .Bsize {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 110%;
+    }
+
 }
 
 /* page 2 */
