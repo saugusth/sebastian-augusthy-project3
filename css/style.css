@@ -15,17 +15,26 @@ nav {
 }
 
 nav ul {
-    text-align: center;
-    height: 15px;
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellow;
 
 }
 
 nav ul li {
-    list-style-type: none;
-    width: 500px;
-    float: left;
-    text-align: center;
-    background: yellow;
+	float: left;
+	position: relative;
+  left:50%;
+  right:50%;
+}
+nav ul li a
+{
+	display: block;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
 }
 
 li a:hover {
