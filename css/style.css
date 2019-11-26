@@ -20,7 +20,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: yellow;
-
+  text-align: center;
 }
 
 nav ul li {
@@ -32,7 +32,7 @@ nav ul li {
 nav ul li a
 {
 	display: block;
-	color: #fff;
+	color: black;
 	padding: 10px 20px;
 	text-decoration: none;
 }
@@ -107,7 +107,6 @@ ul {
 
 h1 {
     clear: both;
-    padding-top: 70px;
 }
 
 @media screen and (max-width: 800px) {
@@ -192,7 +191,6 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 .pagecolor2 {
