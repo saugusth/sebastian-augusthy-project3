@@ -152,10 +152,14 @@ h1 {
 
 }
 
-/*@media screen and (min-width: : 1200px) 
+@media screen and (max-width:1000px) 
 {
-
-}*/
+	#wrapper
+	{
+		margin:auto 0;
+		text-align: left;
+	}
+}
 
 /* page 2 */
 #vresize1 {
