@@ -106,7 +106,7 @@ h1 {
     clear: both;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 400px) {
     body {
         margin-left: 20px;
         margin-right: 20px;
@@ -127,10 +127,7 @@ h1 {
         float: none;
     }
 
-}
-
-@media screen and (max-width: 800px) {
-    .size {
+        .size {
         font-size: 100%
     }
 
@@ -152,7 +149,13 @@ h1 {
         font-size: 200%;
         padding-top: 0;
     }
+
 }
+
+/*@media screen and (min-width: : 1200px) 
+{
+
+}*/
 
 /* page 2 */
 #vresize1 {
